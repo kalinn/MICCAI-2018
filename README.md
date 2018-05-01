@@ -34,9 +34,37 @@ Dr. Vandekar will be joining the Department of Biostatistics at Vanderbilt Unive
 
 ## Tentative Schedule:
 
-1. Statistical Assessment of Scan-Rescan Reliability (Shou)
+### Module 1. Statistical Assessment of Scan-Rescan Reliability (Shou)
 
 - We will demonstrate the importance of assessing scan-rescan reproducibility of imaging data, especially in functional connectivity 
 - We will discuss various metrics available that are suitable for imaging reliability assessment based on modality. 
 - We will introduce statistical approaches that reduce biases caused by large scan-to-scan variations.
+
+### Module 2. Multi-scanner Harmonization of Imaging Data and Replicability Analysis (Shinohara)
+
+- We will summarize the literature documenting biases in imaging measurements and biomarkers arising from differences across imaging protocol, scanners, and sites.
+- We will discuss classical and state-of-the-art approaches for mitigating inter-scanner differences. Many of these approaches draw from the statistical literature on batch effects in genomic and gene expression analysis. 
+- We will discuss replicability analysis methods for benchmarking feature extraction and image harmonization approaches.
+
+### Break
+
+### Module 3. Multiple Comparison Correction (Vandekar)
+
+- We will define formal hypothesis testing and motivate the problem of false positives due to multiple comparisons.
+- We will define the family wise error rate (FWER) and false discovery rate (FDR) and discuss their differences.
+- We will review common FWER techniques used with imaging data such as Bonferroni correction, random field theory, and permutation testing.
+- We will discuss cluster-extent based thresholding.
+- If time permits, we will cover recent projection-based methods for multiple testing and a parametric bootstrap approach that decreases computation time for permutation testing.
+
+### Module 4. Confounding and Multivariate Pattern Analysis (Linn)
+
+- We will illustrate how multivariate pattern analyses based on observational imaging data can be biased if there is confounding by non-imaging variables such as age and sex. 
+- We will discuss univariate and other methods that aim to address this type of confounding.
+- We will introduce an approach based on inverse probability weighting using propensity scores and demonstrate its effectiveness at reducing bias.
+
+### Module 5. Statistical Significance Maps for Machine Learning Methods (Davatzikos)
+
+- We will present methods for inference on weight maps derived from machine learning models. 
+- We will discuss regional filtering and the effect of scale in which the statistical analysis is performed.
+
 
