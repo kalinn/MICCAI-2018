@@ -32,3 +32,11 @@ Dr. Shou joined Penn as an Assistant Professor of Biostatistics after completing
 
 Dr. Vandekar will be joining the Department of Biostatistics at Vanderbilt University in Summer 2018 as an Assistant Professor. He earned his PhD in Biostatistics from the University of Pennsylvania. Dr. Vandekar has developed techniques for multi-modal imaging data analysis and statistical methods that address issues of multiple hypothesis testing with neuroimaging data. He has applied these methods to study neurodevelopment and Alzheimer's disease.
 
+## Tentative Schedule:
+
+1. Statistical Assessment of Scan-Rescan Reliability (Shou)
+
+- We will demonstrate the importance of assessing scan-rescan reproducibility of imaging data, especially in functional connectivity 
+- We will discuss various metrics available that are suitable for imaging reliability assessment based on modality. 
+- We will introduce statistical approaches that reduce biases caused by large scan-to-scan variations.
+
